@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div {
+
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+
+            background: rgb(199, 21, 163);
+            left: 700px;
+            position: relative;
+            top: 300px;
+            border: 3px solid black;
+            animation: myOrbit 5s;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes myOrbit {
+            from {
+                transform: rotate(0deg) translateX(280px) rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg) translateX(280px) rotate(-360deg);
+            }
+        }
+    </style>
+    <title>Animation-Assignment2</title>
+</head>
+
+<body>
+
+    <div></div>
+
+</body>
+
+</html>
